@@ -1,0 +1,20 @@
+{
+    "$schema": "https://laravel-ide.com/schema/laravel-ide-v2.json",
+    "completions": [
+        {
+            "complete": "routeName",
+            "condition": [
+                {
+                    "classFqn": ["Illuminate\\Routing\\Router"],
+                    "methodNames": ["isLocalized"],
+                    "parameters": [1]
+                },
+                {
+                    "classFqn": ["Illuminate\\Routing\\Router"],
+                    "methodNames": ["hasLocalized"],
+                    "parameters": [1]
+                }
+            ]
+        }
+    ]
+}
